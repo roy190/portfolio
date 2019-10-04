@@ -33,7 +33,7 @@ class Contact extends React.Component {
       scriptTag.type = 'text/javascript';
       scriptTag.onload = resolve;
       scriptTag.onerror = reject;
-      scriptTag.src = 'https://maps.googleapis.com/maps/api/js?key=AIzaSyAkqQz2xjfiMw9wx5ah_RvuRXgDqBH2bhg&';
+      scriptTag.src = 'https://maps.googleapis.com/maps/api/js?key=&';
       document.body.appendChild(scriptTag);
     });
   }
