@@ -4,16 +4,20 @@ class VideoGallery extends React.Component {
   constructor(props) {
     super(props);
 
-    if (this.isBrowser = !!(typeof window)) {
+    this.isBrowser = typeof window === 'undefined' ? false : true;
+    this.state = {}
+    if (this.isBrowser) {
       const videoDimension = this.computeVideoDimension()
       this.state = videoDimension
-      this.urls = ['https://www.youtube-nocookie.com/embed/XtHWzK-g0_I']
     }
 
+    this.urls = ['https://www.youtube-nocookie.com/embed/XtHWzK-g0_I']
     this.computeVideoDimension = this.computeVideoDimension.bind(this)
   }
 
   computeVideoDimension() {
+    if (!this.isBrowser) { return }
+
     const width = window.screen.width/2;
 
     return {
