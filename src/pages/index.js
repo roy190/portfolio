@@ -41,20 +41,22 @@ class HomeIndex extends React.Component {
                 <h3>Knee Arthroscopy</h3>
                 <p>
                   Arthroscopy is a surgical procedure in which an arthroscope is
-                  inserted into the knee joint. An arthroscope is a device that
-                  Professor Waller uses to see inside your knee joint. It
-                  includes a camera that is connected a screen.
+                  inserted into the knee joint. It is a device with is used to see inside of joint. It
+                  includes a camera that is connected to a screen.
                 </p>
               </header>
               <Link to="/landing" className="link primary"></Link>
             </article>
             <article style={{ backgroundImage: `url(${pic02})` }}>
               <header className="major">
-                <h3>Dual Mobility Hip Replacement</h3>
+                <h3> Anterior Hip Replacement</h3>
                 <p>
-                  Dual Mobility Hip Replacement is a high performance hip
-                  replacement implant and is an advance on standard hip
-                  replacement methods.
+                  Anterior hip replacement is an approach through which no muscle are cut and it helps in faster recovery 
+                  and patient have less pain. Also it is more anatomical way of doing  Hip Replacement. Dr Rohit Pandey
+                  has worked with Prof James Sullivan in Sydney and learnt this advance way of replacement.
+                  
+                  
+                
                 </p>
               </header>
               <Link to="/landing" className="link primary"></Link>
@@ -101,13 +103,12 @@ class HomeIndex extends React.Component {
             </article>
             <article style={{ backgroundImage: `url(${pic06})` }}>
               <header className="major">
-                <h3>Acute Knee Injury Clinic</h3>
+                <h3>Sport Injuries</h3>
                 <p>
-                  To cater for the sports enthusiast Professor Waller runs
-                  regular Acute Knee Injury Clinics. Knee injuries can be quite
-                  painful and debilitating. In my practice we keep specific
-                  appointments for urgent knee injuries so patients can be seen
-                  urgently.
+                  As we are gaining popularity in sports and developing as sports ethusiast nation. 
+                  Dr Rohit Pandey specializes in sports medicine and provides that world class care to atheletes.
+                  He specializes in sports related injuries around shoulder, ankle and other joints.
+                 
                 </p>
               </header>
               <Link to="/landing" className="link primary"></Link>
@@ -120,15 +121,18 @@ class HomeIndex extends React.Component {
                 <h2>About Me</h2>
               </header>
               <p>
-                Nullam et orci eu lorem consequat tincidunt vivamus et sagittis
-                libero. Mauris aliquet magna magna sed nunc rhoncus pharetra.
-                Pellentesque condimentum sem. In efficitur ligula tate urna.
-                Maecenas laoreet massa vel lacinia pellentesque lorem ipsum
-                dolor. Nullam et orci eu lorem consequat tincidunt. Vivamus et
-                sagittis libero. Mauris aliquet magna magna sed nunc rhoncus
-                amet pharetra et feugiat tempus.
+                Dr Rohit Pandey has done his MBBS from GMC, Miraj in Maharashtra through AIPMT, 
+                following which he was selected through AIPG having rank AIR-179,
+                and took Orthopedics in UCMS & GTB Hospital Delhi.
+                He did his Senior residency for 3 years in UCMS and is inclined towards teaching & research.
+                He went to Derby in United Kingdom for his Shoulder fellowship.
+                Then he got selected for MacNep Arthroplasty fellowship in Sydney, Australia and worked there
+                for 1 year with top  4 Arthroplasty Surgeons. 
+                His mentor and guide Prof Rami Sorial with whom he learnt different techniques of Arthroplasty specially
+                doing PSI CR TKR. He also worked with Dr Simon Coffey, Prof James Sullivan & Prof Craig Waller.
+                He learnt Kinematic alignment, Anterior approach to hip, Robotic knee and hip replacement techniques.
               </p>
-              <h4>International Experience</h4>
+              <h4>International Affiliations & Experience </h4>
               <ul>
                 <li>
                   Clinical Associate lecture Macquarie University, Sydney
