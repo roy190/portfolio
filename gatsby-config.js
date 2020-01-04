@@ -1,8 +1,8 @@
 module.exports = {
   pathPrefix: '/demo',
   siteMetadata: {
-    title: 'Gatsby Starter - Forty V2',
-    author: 'Hunter Chang',
+    title: 'Dr. Rohit',
+    author: 'Tripurari Shankar',
     description: 'A Gatsby.js V2 Starter based on Forty by HTML5 UP',
   },
   plugins: [
