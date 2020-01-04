@@ -4,17 +4,18 @@ const Banner = props => (
   <section id="banner" className="major">
     <div className="inner">
       <header className="major">
-        <h1>Hi, I am Rohit Pandey</h1>
+        <h1>Dr Rohit Pandey</h1>
       </header>
       <div className="content">
         <p>
           <span className="content__heading">
-            Specialist in Hip &amp; Knee Surgery
+            Joint Specialist & Consultant Orthopedics
           </span>
           <br />
           MS (ORTHO), DNB (ORTHO), MNAMS, MBBS MacNep Arthroplasty Fellow,
           <br />
-          AOA Accredited, Sydney Australia Shoulder Fellow Derby UK
+          AOA Accredited, Sydney, Australia. 
+          Shoulder Fellow, Derby, UK.
         </p>
         <ul className="actions">
           <li>
