@@ -19,7 +19,7 @@ const Banner = props => (
         </p>
         <ul className="actions">
           <li>
-            <a href="#one" className="button next scrolly">
+            <a href="tel:+918882783373" className="button next scrolly">
               Book Appointment
             </a>
           </li>

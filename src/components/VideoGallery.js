@@ -11,14 +11,37 @@ class VideoGallery extends React.Component {
       this.state = videoDimension
     }
 
-    this.urls = ['https://www.youtube-nocookie.com/embed/XtHWzK-g0_I']
-    this.computeVideoDimension = this.computeVideoDimension.bind(this)
+    this.urls = ['https://www.youtube-nocookie.com/embed/XtHWzK-g0_I'];
+    this.computeVideoDimension = this.computeVideoDimension.bind(this);
+    this.updateIframeDimension = this.updateIframeDimension.bind(this);
+
+  }
+
+  componentDidMount() {
+    this.updateIframeDimension();
+    window.addEventListener('resize', this.updateIframeDimension, true);
+  }
+
+  componentWillUnmount() {
+    window.removeEventListener('resize', this.updateIframeDimension, true);
+  }
+
+  updateIframeDimension() {
+    this.setState(this.computeVideoDimension());
   }
 
   computeVideoDimension() {
     if (!this.isBrowser) { return }
 
-    const width = window.screen.width/2;
+    const element = this.videoContainer || document.body;
+    const width = element.clientWidth;
+    let iframeWidth;
+
+    if (width > 768) {
+      iframeWidth = width/2;
+    } else {
+      iframeWidth = width;
+    }
 
     return {
       width: width + 'px',
@@ -35,7 +58,7 @@ class VideoGallery extends React.Component {
             <h2>Our Videos</h2>
           </header>
           {this.isBrowser && this.urls.map(url => (
-            <div className="video">
+            <div className="video" ref={ref => this.videoContainer = ref}>
               <iframe width={width} height={height} src={url} frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
             </div>
           ))}
