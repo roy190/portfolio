@@ -44,8 +44,8 @@ class VideoGallery extends React.Component {
     }
 
     return {
-      width: width + 'px',
-      height: (width/1.777) + 'px'
+      width: iframeWidth + 'px',
+      height: (iframeWidth/1.777) + 'px'
     }
   }
 
