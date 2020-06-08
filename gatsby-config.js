@@ -1,5 +1,5 @@
 module.exports = {
-  pathPrefix: '/',
+  pathPrefix: '/portfolio',
   siteMetadata: {
     title: 'Dr. Rohit',
     author: 'Tripurari Shankar',
