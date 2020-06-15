@@ -27,7 +27,7 @@ class HomeIndex extends React.Component {
             {
               name: 'keywords',
               content:
-                'MS (ORTHO), DNB (ORTHO), MNAMS, MBBS MacNep Arthroplasty Fellow, AOA Accredited, Sydney Australia Shoulder Fellow Derby UK',
+                'Sports injury, Joint Replacement, Orthopedician',
             },
           ]}
         ></Helmet>
