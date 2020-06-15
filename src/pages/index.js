@@ -22,7 +22,7 @@ class HomeIndex extends React.Component {
             {
               name: 'description',
               content:
-                'MS (ORTHO), DNB (ORTHO), MNAMS, MBBS MacNep Arthroplasty Fellow, AOA Accredited, Sydney Australia Shoulder Fellow Derby UK',
+                'MS (ORTHO), DNB (ORTHO), MNAMS, MBBS, MacNep Arthroplasty Fellow, AOA Accredited, Sydney Australia Shoulder Fellow Derby UK',
             },
             {
               name: 'keywords',
