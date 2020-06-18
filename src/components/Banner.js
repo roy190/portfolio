@@ -12,7 +12,7 @@ const Banner = props => (
             Joint Specialist & Consultant Orthopedics
           </span>
           <br />
-          MS (ORTHO), DNB (ORTHO), MNAMS, MBBS MacNep Arthroplasty Fellow,
+          MS (ORTHO), DNB (ORTHO), MNAMS, MBBS, MacNep Arthroplasty Fellow,
           <br />
           AOA Accredited, Sydney, Australia. 
           Shoulder Fellow, Derby, UK.
