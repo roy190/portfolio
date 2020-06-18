@@ -11,7 +11,7 @@ class VideoGallery extends React.Component {
       this.state = videoDimension
     }
 
-    this.urls = ['https://www.youtube-nocookie.com/embed/XtHWzK-g0_I'];
+    this.urls = ['https://www.youtube-nocookie.com/embed/XtHWzK-g1_I', 'https://www.youtube.com/embed/sFbih-ODoNs'];
     this.computeVideoDimension = this.computeVideoDimension.bind(this);
     this.updateIframeDimension = this.updateIframeDimension.bind(this);
 
@@ -38,7 +38,7 @@ class VideoGallery extends React.Component {
     let iframeWidth;
 
     if (width > 768) {
-      iframeWidth = width/2;
+      iframeWidth = Math.floor(width/2);
     } else {
       iframeWidth = width;
     }
@@ -57,11 +57,11 @@ class VideoGallery extends React.Component {
           <header className="major">
             <h2>Our Videos</h2>
           </header>
-          {this.isBrowser && this.urls.map(url => (
             <div className="video" ref={ref => this.videoContainer = ref}>
-              <iframe width={width} height={height} src={url} frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+              {this.isBrowser && this.urls.map(url => (
+                <iframe width={width} height={height} src={url} frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+              ))}
             </div>
-          ))}
         </div>
       </section>
     )
