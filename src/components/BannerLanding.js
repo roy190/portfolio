@@ -8,9 +8,9 @@ const BannerLanding = props => (
       </header>
       <div className="content">
         <p>
-          Lorem ipsum dolor sit amet nullam consequat
+          Dr Rohit Pandey
           <br />
-          sed veroeros. tempus adipiscing nulla.
+          MBBS,MS,DNB (ORTHO),MNAMS, Diploma in Football medicine (FIFA)
         </p>
       </div>
     </div>
