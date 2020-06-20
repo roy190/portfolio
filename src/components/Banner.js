@@ -16,6 +16,8 @@ const Banner = props => (
           <br />
           AOA Accredited, Sydney, Australia. 
           Shoulder Fellow, Derby, UK.
+          Diploma in Football Medicine (FIFA)
+          Associate FACS (USA)
         </p>
         <ul className="actions">
           <li>
