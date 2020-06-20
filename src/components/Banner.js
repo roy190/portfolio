@@ -9,7 +9,8 @@ const Banner = props => (
       <div className="content">
         <p>
           <span className="content__heading">
-            Joint Specialist & Consultant Orthopedics
+            Sports Injury & Joint Specialist
+            Consultant Orthopedics
           </span>
           <br />
           MS (ORTHO), DNB (ORTHO), MNAMS, MBBS, MacNep Arthroplasty Fellow,
