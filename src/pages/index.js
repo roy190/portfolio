@@ -118,7 +118,7 @@ class HomeIndex extends React.Component {
           <section id="tow">
             <div className="inner">
               <header className="major">
-                <h2>About Me</h2>
+                <h2>About Dr Rohit Pandey</h2>
               </header>
               <p>
                 Dr Rohit Pandey has done his MBBS from GMC, Miraj in Maharashtra through AIPMT, 
