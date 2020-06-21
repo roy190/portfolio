@@ -11,6 +11,9 @@ const BannerLanding = props => (
           Dr Rohit Pandey
           <br />
           MBBS,MS,DNB (ORTHO),MNAMS, Diploma in Football medicine (FIFA)
+
+          LEARNING IS CONTINOUS PROCESS
+          COMMITTED TO PROVIDE BEST HEALTHCARE
         </p>
       </div>
     </div>
