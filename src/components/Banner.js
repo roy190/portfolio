@@ -10,14 +10,15 @@ const Banner = props => (
         <p>
           <span className="content__heading">
             Sports Injury & Joint Specialist
+          <br />
             Consultant Orthopedics
           </span>
           <br />
           MS (ORTHO), DNB (ORTHO), MNAMS, MBBS, MacNep Arthroplasty Fellow,
           <br />
           AOA Accredited, Sydney, Australia. 
-          Shoulder Fellow, Derby, UK.
-          Diploma in Football Medicine (FIFA)
+          Shoulder Fellow, Derby, UK,
+          Diploma in Football Medicine (FIFA),
           Associate FACS (USA)
         </p>
         <ul className="actions">
