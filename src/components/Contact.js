@@ -49,14 +49,14 @@ class Contact extends React.Component {
               <div className="contact-method">
                 <span className="icon alt fa-envelope"></span>
                 <h3>Email</h3>
-                <a href="mailto:docrohit87@gmail.com">docrohit87@gmail.com</a>
+                <a href="mailto:chakraboneandjointcenter@gmail.com">chakraboneandjointcenter@gmail.com</a>
               </div>
             </section>
             <section>
               <div className="contact-method">
                 <span className="icon alt fa-phone"></span>
                 <h3>Phone</h3>
-                <a href="tel:+918882783373">(+91) 8882783373</a>
+                <a href="tel:+918076973819">(+91) 8076973819</a>
               </div>
             </section>
             <section>
@@ -64,7 +64,7 @@ class Contact extends React.Component {
                 <span className="icon alt fa-home"></span>
                 <h3>Address</h3>
                 <span>
-                  Galaxy Hospital and Ujala Cygnus Hospital
+                    B27/92-62A, Ravindrapuri
                   <br />
                   Varanasi, Uttar Pradesh
                 </span>
