@@ -4,6 +4,7 @@ const Banner = props => (
   <section id="banner" className="major">
     <div className="inner">
       <header className="major">
+        <h1>CHAKRA BONE AND JOINT CENTER</h1>
         <h1>Dr Rohit Pandey</h1>
       </header>
       <div className="content">
