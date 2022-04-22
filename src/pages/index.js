@@ -27,7 +27,7 @@ class HomeIndex extends React.Component {
             {
               name: 'keywords',
               content:
-                'Sports injury, Joint Replacement, Orthopedician',
+                'Sports injury, Joint Replacement, Orthopedician, Ortho, best knee replacement surgeon, best knee replacement surgeon in varanasi, Varanasi, Hip replacement, Orthopedic surgeon in varanasi, Arthroscopy, ACL, PCL, Meniscus, Best hip replacement surgeon, anterior cruciate ligament ',
             },
           ]}
         ></Helmet>
