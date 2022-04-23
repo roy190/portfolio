@@ -11,7 +11,7 @@ class VideoGallery extends React.Component {
       this.state = videoDimension
     }
 
-    this.urls = ['https://www.youtube.com/embed/XtHWzK-g0_I', 'https://www.youtube.com/embed/sFbih-ODoNs'];
+    this.urls = ['https://www.youtube.com/embed/XtHWzK-g0_I', 'https://www.youtube.com/watch?v=ewPqx8j8zXM', 'https://www.youtube.com/embed/sFbih-ODoNs'];
     this.computeVideoDimension = this.computeVideoDimension.bind(this);
     this.updateIframeDimension = this.updateIframeDimension.bind(this);
 
