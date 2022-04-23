@@ -38,7 +38,7 @@ class HomeIndex extends React.Component {
           <section id="one" className="tiles">
             <article style={{ backgroundImage: `url(${pic01})` }}>
               <header className="major">
-                <h3>Knee Arthroscopy</h3>
+                <h3>Knee Arthroscopy-</h3>
                 <p>
                   Arthroscopy is a surgical procedure in which an arthroscope is
                   inserted into the knee joint. It is a device with is used to see inside of joint. It
