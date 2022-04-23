@@ -107,7 +107,7 @@ class HomeIndex extends React.Component {
                 <p>
                   As we are gaining popularity in sports and developing as sports ethusiast nation. 
                   Dr Rohit Pandey specializes in sports medicine and provides that world class care to atheletes.
-                  He specializes in sports related injuries around shoulder, ankle and other joints.
+                  He specializes in sports related injuries around shoulder, knee, ankle and other joints.
                  
                 </p>
               </header>
