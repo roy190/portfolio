@@ -10,7 +10,7 @@ Gatsby.js V2 starter based on the Forty site template, designed by HTML5 UP. Che
 
 https://gatsby-forty.surge.sh
 
-## Installation
+## Installation 
 
 Install this starter (assuming Gatsby is installed) by running from your CLI:
 <br/>
